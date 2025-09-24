@@ -5,4 +5,4 @@
 [![Releases](https://img.shields.io/github/release/heinhtetlin810/devops_test/all.svg?style=flat-square)](https://github.com/heinhtetlin810/devops_test/releases)
 ![GitHub Workflow Status (branch)](https://img.shields.io/github/actions/workflow/status/heinhtetlin810/devops_test/main.yml?branch=master)
 # DevOps
-![GitHub Workflow Status (branch)](https://img.shields.io/github/workflow/status/<username>/<repository>/<action name taken from main.yml>/<branch>?style=flat-square)
+![GitHub Workflow Status (branch)](https://img.shields.io/github/workflow/status/heinhtetlin810/devops_test/<action name taken from main.yml>/<branch>?style=flat-square)
