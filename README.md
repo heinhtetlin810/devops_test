@@ -1,7 +1,6 @@
-https://img.shields.io/github/license/heinhtetlin810/devops_test.svg?style=flat-square
+# Software Engineering Method
 
-https://img.shields.io/github/actions/workflow/status/heinhtetlin810/devops_test/main.yml?branch=master
-
-https://img.shields.io/github/release/heinhtetlin810/devops_test/all.svg?style=flat-square
-
-![workflow](https://github.com/heinhtetlin810/devops_test/actions/workflows/main.yml/badge.svg)
+[GitHub Workflow Status (branch)](https://img.shields.io/github/actions/workflow/status/heinhtetlin810/devops_test/main.yml?branch=master)
+[![LICENSE](https://img.shields.io/github/license/heinhtetlin810/devops_test.svg?style=flat-square)](https://github.com/heinhtetlin810/devops_test/blob/master/LICENSE)
+[![Releases](https://img.shields.io/github/release/heinhtetlin810/devops_test/all.svg?style=flat-square)](https://github.com/heinhtetlin810/devops_test/releases)
+![GitHub Workflow Status (branch)](https://img.shields.io/github/actions/workflow/status/heinhtetlin810/devops_test/main.yml?branch=master)
