@@ -1,0 +1,28 @@
+services:
+  app:
+    build: .
+    depends_on:
+      db:
+        condition: service_healthy
+    environment:
+      DB_HOST: db
+      DB_PORT: 3306
+      DB_USER: root
+      DB_PASSWORD: example
+      DB_NAME: employees
+
+  db:
+    image: mysql:8.0   # use official image instead of custom build unless you need extra files
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: example
+      MYSQL_DATABASE: employees
+      MYSQL_ROOT_HOST: '%'
+    ports:
+      - "33061:3306"
+    volumes:
+      - ./db/test_db:/docker-entrypoint-initdb.d
+    healthcheck:
+      test: ["CMD", "mysqladmin", "ping", "-h", "localhost"]
+      interval: 5s
+      retries: 5

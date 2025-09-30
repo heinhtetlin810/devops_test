@@ -1,8 +1,8 @@
 FROM openjdk:17-jdk-slim
 
 # copy the fat jar
-COPY ./target/devops_test-0.1.0.1-jar-with-dependencies.jar /app/app.jar
+COPY ./target/devops_test-0.1.0.2-jar-with-dependencies.jar /tmp
 
-WORKDIR /app
+WORKDIR /tmp
 
-ENTRYPOINT ["java", "-jar", "app.jar"]
+ENTRYPOINT ["java", "-jar", "devops_test-0.1.0.2-jar-with-dependencies.jar"]
