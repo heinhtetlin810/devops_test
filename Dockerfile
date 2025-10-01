@@ -1,4 +1,4 @@
-FROM openjdk:17-jdk-slim
+FROM openjdk:24
 
 # copy the fat jar
 COPY ./target/devops_test-0.1.0.2-jar-with-dependencies.jar /tmp
